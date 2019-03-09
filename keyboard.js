@@ -1,6 +1,6 @@
 /**
     Example usage:
-    let keyCode require("./keycodes")["up arrow"];
+    let keyCode require("./keycodes")("up arrow");
     let upKey = require("./keyboard.js")(keyCode) //38 is keycode number for up!
     if (upKey.isDown){
         doSomething();
